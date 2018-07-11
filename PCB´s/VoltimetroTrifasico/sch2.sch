@@ -6589,11 +6589,13 @@ Each pin can provide or receive a maximum of 40 mA and has an internal pull-up r
 <junction x="111.76" y="71.12"/>
 </segment>
 <segment>
-<pinref part="R5" gate="G$1" pin="1"/>
-<pinref part="IC1" gate="A" pin="OUT"/>
-<wire x1="43.18" y1="96.52" x2="43.18" y2="104.14" width="0.1524" layer="91"/>
-<junction x="43.18" y="104.14"/>
-<label x="48.26" y="104.14" size="1.778" layer="95" rot="R180"/>
+<pinref part="R17" gate="G$1" pin="1"/>
+<wire x1="40.64" y1="66.04" x2="45.72" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="66.04" x2="45.72" y2="76.2" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="B" pin="OUT"/>
+<wire x1="45.72" y1="76.2" x2="43.18" y2="76.2" width="0.1524" layer="91"/>
+<junction x="45.72" y="76.2"/>
+<label x="50.8" y="76.2" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="AN1" class="0">
@@ -6602,13 +6604,11 @@ Each pin can provide or receive a maximum of 40 mA and has an internal pull-up r
 <junction x="111.76" y="73.66"/>
 </segment>
 <segment>
-<pinref part="R17" gate="G$1" pin="1"/>
-<wire x1="40.64" y1="66.04" x2="45.72" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="66.04" x2="45.72" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="B" pin="OUT"/>
-<wire x1="45.72" y1="76.2" x2="43.18" y2="76.2" width="0.1524" layer="91"/>
-<junction x="45.72" y="76.2"/>
-<label x="50.8" y="76.2" size="1.778" layer="95" rot="R180"/>
+<pinref part="R5" gate="G$1" pin="1"/>
+<pinref part="IC1" gate="A" pin="OUT"/>
+<wire x1="43.18" y1="96.52" x2="43.18" y2="104.14" width="0.1524" layer="91"/>
+<junction x="43.18" y="104.14"/>
+<label x="48.26" y="104.14" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="AN2" class="0">
