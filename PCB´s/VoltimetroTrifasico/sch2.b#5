@@ -1598,14 +1598,14 @@ design rules under a new name.</description>
 </autorouter>
 <elements>
 <element name="220" library="rcl" package="0204/7" value="10k" x="-40.64" y="58.42"/>
-<element name="ARDUINO_NANO1" library="ArduinoNanoV30" package="ARDUINO_NANO" value="" x="38.1" y="66.04"/>
-<element name="DIS1" library="display-lcd" package="TUXGR_16X2_R2" value="TUXGR_16X2_R2" x="92.71" y="31.75">
-<attribute name="MPN" value="" x="92.71" y="31.75" size="1.778" layer="27" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="92.71" y="31.75" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="92.71" y="31.75" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="" x="92.71" y="31.75" size="1.778" layer="27" display="off"/>
+<element name="ARDUINO_NANO1" library="ArduinoNanoV30" package="ARDUINO_NANO" value="" x="125.73" y="25.4"/>
+<element name="DIS1" library="display-lcd" package="TUXGR_16X2_R2" value="TUXGR_16X2_R2" x="95.25" y="58.42">
+<attribute name="MPN" value="" x="95.25" y="58.42" size="1.778" layer="27" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="95.25" y="58.42" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="95.25" y="58.42" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="" x="95.25" y="58.42" size="1.778" layer="27" display="off"/>
 </element>
-<element name="IC1" library="linear" package="DIL14" value="LM324N" x="52.07" y="85.09"/>
+<element name="IC1" library="linear" package="DIL14" value="LM324N" x="88.9" y="87.63"/>
 <element name="R1" library="rcl" package="0204/7" value="10k" x="-50.8" y="58.42"/>
 <element name="R10" library="rcl" package="0204/7" value="10k" x="-68.58" y="66.04"/>
 <element name="R11" library="pot" package="B64Y" value="" x="12.7" y="52.07"/>
@@ -1635,7 +1635,7 @@ design rules under a new name.</description>
 <signal name="N$2">
 <contactref element="R5" pad="2"/>
 <contactref element="IC1" pad="2"/>
-<wire x1="46.99" y1="81.28" x2="-24.13" y2="66.04" width="0" layer="19" extent="1-1"/>
+<wire x1="83.82" y1="83.82" x2="-24.13" y2="66.04" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="IN1">
 <contactref element="R4" pad="1"/>
@@ -1646,7 +1646,7 @@ design rules under a new name.</description>
 <wire x1="-54.61" y1="58.42" x2="-21.59" y2="66.04" width="0" layer="19" extent="1-1"/>
 <wire x1="19.05" y1="31.75" x2="-54.61" y2="58.42" width="0" layer="19" extent="1-1"/>
 <wire x1="11.43" y1="43.18" x2="19.05" y2="31.75" width="0" layer="19" extent="1-1"/>
-<wire x1="49.53" y1="81.28" x2="11.43" y2="43.18" width="0" layer="19" extent="1-1"/>
+<wire x1="86.36" y1="83.82" x2="11.43" y2="43.18" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="OFFSET1">
 <contactref element="R4" pad="2"/>
@@ -1664,28 +1664,32 @@ design rules under a new name.</description>
 <contactref element="DIS1" pad="1"/>
 <contactref element="DIS1" pad="5"/>
 <contactref element="220" pad="2"/>
-<wire x1="70.87" y1="47.25" x2="60.71" y2="47.25" width="0" layer="19" extent="1-1"/>
-<wire x1="52.07" y1="88.9" x2="70.87" y2="47.25" width="0" layer="19" extent="1-1"/>
-<wire x1="19.05" y1="43.18" x2="52.07" y2="88.9" width="0" layer="19" extent="1-1"/>
-<wire x1="-36.83" y1="58.42" x2="19.05" y2="43.18" width="0" layer="19" extent="1-1"/>
-<wire x1="-29.21" y1="59.69" x2="-36.83" y2="58.42" width="0" layer="19" extent="1-1"/>
-<wire x1="45.72" y1="73.66" x2="-29.21" y2="59.69" width="0" layer="19" extent="1-1"/>
-<wire x1="-24.13" y1="69.85" x2="-29.21" y2="59.69" width="0" layer="19" extent="1-1"/>
-<wire x1="-13.97" y1="59.69" x2="45.72" y2="73.66" width="0" layer="19" extent="1-1"/>
-<wire x1="50.8" y1="58.42" x2="45.72" y2="73.66" width="0" layer="19" extent="1-1"/>
+<contactref element="R9" pad="2"/>
+<contactref element="R11" pad="A"/>
+<wire x1="73.41" y1="73.92" x2="88.9" y2="91.44" width="0" layer="19" extent="1-1"/>
+<wire x1="63.25" y1="73.92" x2="73.41" y2="73.92" width="0" layer="19" extent="1-1"/>
+<wire x1="15.24" y1="52.07" x2="63.25" y2="73.92" width="0" layer="19" extent="1-1"/>
+<wire x1="19.05" y1="43.18" x2="15.24" y2="52.07" width="0" layer="19" extent="1-1"/>
+<wire x1="-13.97" y1="59.69" x2="15.24" y2="52.07" width="0" layer="19" extent="1-1"/>
+<wire x1="-24.13" y1="69.85" x2="-13.97" y2="59.69" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.21" y1="59.69" x2="-24.13" y2="69.85" width="0" layer="19" extent="1-1"/>
+<wire x1="-36.83" y1="58.42" x2="-29.21" y2="59.69" width="0" layer="19" extent="1-1"/>
+<wire x1="-54.61" y1="66.04" x2="-36.83" y2="58.42" width="0" layer="19" extent="1-1"/>
+<wire x1="133.35" y1="33.02" x2="73.41" y2="73.92" width="0" layer="19" extent="1-1"/>
+<wire x1="138.43" y1="17.78" x2="133.35" y2="33.02" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="+5V">
 <contactref element="R6" pad="E"/>
 <contactref element="R16" pad="E"/>
 <contactref element="IC1" pad="4"/>
-<contactref element="ARDUINO_NANO1" pad="15"/>
 <contactref element="DIS1" pad="2"/>
 <contactref element="DIS1" pad="15"/>
-<wire x1="52.07" y1="81.28" x2="63.25" y2="47.25" width="0" layer="19" extent="1-1"/>
-<wire x1="96.27" y1="47.25" x2="52.07" y2="81.28" width="0" layer="19" extent="1-1"/>
-<wire x1="-34.29" y1="59.69" x2="96.27" y2="47.25" width="0" layer="19" extent="1-1"/>
-<wire x1="-19.05" y1="59.69" x2="-34.29" y2="59.69" width="0" layer="19" extent="1-1"/>
-<wire x1="53.34" y1="58.42" x2="-19.05" y2="59.69" width="0" layer="19" extent="1-1"/>
+<contactref element="ARDUINO_NANO1" pad="12"/>
+<wire x1="98.81" y1="73.92" x2="88.9" y2="83.82" width="0" layer="19" extent="1-1"/>
+<wire x1="65.79" y1="73.92" x2="88.9" y2="83.82" width="0" layer="19" extent="1-1"/>
+<wire x1="133.35" y1="17.78" x2="98.81" y2="73.92" width="0" layer="19" extent="1-1"/>
+<wire x1="-19.05" y1="59.69" x2="65.79" y2="73.92" width="0" layer="19" extent="1-1"/>
+<wire x1="-34.29" y1="59.69" x2="-19.05" y2="59.69" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AC1_3">
 <contactref element="R7" pad="2"/>
@@ -1699,7 +1703,7 @@ design rules under a new name.</description>
 <contactref element="IC1" pad="5"/>
 <contactref element="R7" pad="1"/>
 <contactref element="R8" pad="2"/>
-<wire x1="-62.23" y1="66.04" x2="54.61" y2="81.28" width="0" layer="19" extent="1-1"/>
+<wire x1="-62.23" y1="66.04" x2="91.44" y2="83.82" width="0" layer="19" extent="1-1"/>
 <wire x1="-72.39" y1="66.04" x2="-62.23" y2="66.04" width="0" layer="19" extent="1-1"/>
 <wire x1="-44.45" y1="66.04" x2="-62.23" y2="66.04" width="0" layer="19" extent="1-1"/>
 <wire x1="21.59" y1="87.63" x2="-44.45" y2="66.04" width="0" layer="19" extent="1-1"/>
@@ -1708,11 +1712,6 @@ design rules under a new name.</description>
 <contactref element="R10" pad="2"/>
 <contactref element="R11" pad="S"/>
 <wire x1="-64.77" y1="66.04" x2="12.7" y2="52.07" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="GND1">
-<contactref element="R9" pad="2"/>
-<contactref element="R11" pad="A"/>
-<wire x1="-54.61" y1="66.04" x2="15.24" y2="52.07" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="+5V1">
 <contactref element="R11" pad="E"/>
@@ -1731,8 +1730,8 @@ design rules under a new name.</description>
 <contactref element="R13" pad="2"/>
 <wire x1="-31.75" y1="69.85" x2="-13.97" y2="69.85" width="0" layer="19" extent="1-1"/>
 <wire x1="-41.91" y1="69.85" x2="-31.75" y2="69.85" width="0" layer="19" extent="1-1"/>
-<wire x1="54.61" y1="88.9" x2="-41.91" y2="69.85" width="0" layer="19" extent="1-1"/>
-<wire x1="-82.55" y1="66.04" x2="54.61" y2="88.9" width="0" layer="19" extent="1-1"/>
+<wire x1="91.44" y1="91.44" x2="-41.91" y2="69.85" width="0" layer="19" extent="1-1"/>
+<wire x1="-82.55" y1="66.04" x2="91.44" y2="91.44" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="OFFSET3">
 <contactref element="R15" pad="2"/>
@@ -1742,66 +1741,63 @@ design rules under a new name.</description>
 <signal name="N$1">
 <contactref element="R18" pad="2"/>
 <contactref element="IC1" pad="9"/>
-<wire x1="57.15" y1="88.9" x2="-54.61" y2="69.85" width="0" layer="19" extent="1-1"/>
+<wire x1="93.98" y1="91.44" x2="-54.61" y2="69.85" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$5">
 <contactref element="R17" pad="2"/>
 <contactref element="IC1" pad="6"/>
-<wire x1="57.15" y1="81.28" x2="-44.45" y2="69.85" width="0" layer="19" extent="1-1"/>
+<wire x1="93.98" y1="83.82" x2="-44.45" y2="69.85" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AN0">
 <contactref element="ARDUINO_NANO1" pad="4"/>
 <contactref element="R5" pad="1"/>
 <contactref element="IC1" pad="1"/>
-<wire x1="25.4" y1="58.42" x2="-31.75" y2="66.04" width="0" layer="19" extent="1-1"/>
-<wire x1="44.45" y1="81.28" x2="25.4" y2="58.42" width="0" layer="19" extent="1-1"/>
+<wire x1="113.03" y1="17.78" x2="-31.75" y2="66.04" width="0" layer="19" extent="1-1"/>
+<wire x1="81.28" y1="83.82" x2="113.03" y2="17.78" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AN1">
 <contactref element="ARDUINO_NANO1" pad="5"/>
 <contactref element="R17" pad="1"/>
 <contactref element="IC1" pad="7"/>
-<wire x1="27.94" y1="58.42" x2="59.69" y2="81.28" width="0" layer="19" extent="1-1"/>
-<wire x1="-52.07" y1="69.85" x2="59.69" y2="81.28" width="0" layer="19" extent="1-1"/>
+<wire x1="115.57" y1="17.78" x2="96.52" y2="83.82" width="0" layer="19" extent="1-1"/>
+<wire x1="-52.07" y1="69.85" x2="96.52" y2="83.82" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AN2">
 <contactref element="ARDUINO_NANO1" pad="6"/>
 <contactref element="R18" pad="1"/>
 <contactref element="IC1" pad="8"/>
-<wire x1="-62.23" y1="69.85" x2="59.69" y2="88.9" width="0" layer="19" extent="1-1"/>
-<wire x1="30.48" y1="58.42" x2="59.69" y2="88.9" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$13">
-<contactref element="ARDUINO_NANO1" pad="12"/>
+<wire x1="-62.23" y1="69.85" x2="96.52" y2="91.44" width="0" layer="19" extent="1-1"/>
+<wire x1="118.11" y1="17.78" x2="96.52" y2="91.44" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="D4">
 <contactref element="ARDUINO_NANO1" pad="26"/>
 <contactref element="DIS1" pad="11"/>
-<wire x1="27.94" y1="73.66" x2="86.11" y2="47.25" width="0" layer="19" extent="1-1"/>
+<wire x1="115.57" y1="33.02" x2="88.65" y2="73.92" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="D7">
 <contactref element="ARDUINO_NANO1" pad="22"/>
 <contactref element="DIS1" pad="14"/>
-<wire x1="93.73" y1="47.25" x2="38.1" y2="73.66" width="0" layer="19" extent="1-1"/>
+<wire x1="96.27" y1="73.92" x2="125.73" y2="33.02" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="D6">
 <contactref element="ARDUINO_NANO1" pad="23"/>
 <contactref element="DIS1" pad="13"/>
-<wire x1="91.19" y1="47.25" x2="35.56" y2="73.66" width="0" layer="19" extent="1-1"/>
+<wire x1="93.73" y1="73.92" x2="123.19" y2="33.02" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="D5">
 <contactref element="ARDUINO_NANO1" pad="24"/>
 <contactref element="DIS1" pad="12"/>
-<wire x1="33.02" y1="73.66" x2="88.65" y2="47.25" width="0" layer="19" extent="1-1"/>
+<wire x1="120.65" y1="33.02" x2="91.19" y2="73.92" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ENA">
 <contactref element="ARDUINO_NANO1" pad="28"/>
 <contactref element="DIS1" pad="6"/>
-<wire x1="22.86" y1="73.66" x2="73.41" y2="47.25" width="0" layer="19" extent="1-1"/>
+<wire x1="110.49" y1="33.02" x2="75.95" y2="73.92" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RS">
 <contactref element="ARDUINO_NANO1" pad="29"/>
 <contactref element="DIS1" pad="4"/>
-<wire x1="20.32" y1="73.66" x2="68.33" y2="47.25" width="0" layer="19" extent="1-1"/>
+<wire x1="107.95" y1="33.02" x2="70.87" y2="73.92" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="V0">
 <contactref element="DIS1" pad="3"/>
@@ -1809,7 +1805,10 @@ design rules under a new name.</description>
 <signal name="N$3">
 <contactref element="DIS1" pad="16"/>
 <contactref element="220" pad="1"/>
-<wire x1="98.81" y1="47.25" x2="-44.45" y2="58.42" width="0" layer="19" extent="1-1"/>
+<wire x1="101.35" y1="73.92" x2="-44.45" y2="58.42" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="VIN">
+<contactref element="ARDUINO_NANO1" pad="15"/>
 </signal>
 </signals>
 </board>
