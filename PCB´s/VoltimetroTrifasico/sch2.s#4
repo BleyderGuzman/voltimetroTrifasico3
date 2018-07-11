@@ -6341,12 +6341,14 @@ Source: tuxgr_12x2_r2.pdf</description>
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
 <junction x="-2.54" y="99.06"/>
+<label x="-2.54" y="91.44" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="AC1_2" class="0">
 <segment>
 <pinref part="R2" gate="G$1" pin="1"/>
 <junction x="20.32" y="99.06"/>
+<label x="20.32" y="91.44" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -6370,12 +6372,14 @@ Source: tuxgr_12x2_r2.pdf</description>
 <pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="7.62" y1="99.06" x2="10.16" y2="99.06" width="0.1524" layer="91"/>
 <junction x="10.16" y="99.06"/>
+<label x="10.16" y="93.98" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="OFFSET1" class="0">
 <segment>
 <pinref part="R4" gate="G$1" pin="2"/>
 <junction x="2.54" y="106.68"/>
+<label x="2.54" y="109.22" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
 <pinref part="R6" gate="1" pin="S"/>
@@ -6386,80 +6390,108 @@ Source: tuxgr_12x2_r2.pdf</description>
 <segment>
 <pinref part="R3" gate="G$1" pin="2"/>
 <junction x="17.78" y="116.84"/>
+<label x="20.32" y="116.84" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
 <pinref part="R6" gate="1" pin="A"/>
 <junction x="-5.08" y="101.6"/>
+<label x="-5.08" y="96.52" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
 <pinref part="R16" gate="1" pin="A"/>
 <junction x="-7.62" y="43.18"/>
+<label x="-10.16" y="38.1" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
 <pinref part="R14" gate="G$1" pin="2"/>
 <junction x="15.24" y="58.42"/>
+<label x="15.24" y="58.42" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="P" pin="V-"/>
 <junction x="48.26" y="96.52"/>
+<label x="53.34" y="96.52" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
 <pinref part="ARDUINO_NANO1" gate="G$1" pin="GND@1"/>
 <junction x="71.12" y="91.44"/>
+<label x="68.58" y="91.44" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
 <pinref part="ARDUINO_NANO1" gate="G$1" pin="GND@2"/>
 <junction x="111.76" y="96.52"/>
+<label x="119.38" y="96.52" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
 <pinref part="DIS1" gate="G$1" pin="GND"/>
 <junction x="129.54" y="101.6"/>
+<label x="129.54" y="101.6" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
 <pinref part="DIS1" gate="G$1" pin="R/W"/>
 <junction x="129.54" y="91.44"/>
+<label x="129.54" y="91.44" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
 <pinref part="220" gate="G$1" pin="2"/>
 <junction x="116.84" y="63.5"/>
+<label x="116.84" y="63.5" size="1.778" layer="95" rot="R180"/>
+</segment>
+<segment>
+<pinref part="R9" gate="G$1" pin="2"/>
+<junction x="15.24" y="88.9"/>
+<label x="15.24" y="88.9" size="1.778" layer="95" rot="R180"/>
+</segment>
+<segment>
+<pinref part="R11" gate="1" pin="A"/>
+<junction x="-7.62" y="73.66"/>
+<label x="-15.24" y="71.12" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="+5V" class="0">
 <segment>
 <pinref part="R6" gate="1" pin="E"/>
 <junction x="-5.08" y="111.76"/>
+<label x="-5.08" y="111.76" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
 <pinref part="R16" gate="1" pin="E"/>
 <junction x="-7.62" y="53.34"/>
+<label x="-7.62" y="53.34" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="P" pin="V+"/>
 <junction x="48.26" y="111.76"/>
-</segment>
-<segment>
-<pinref part="ARDUINO_NANO1" gate="G$1" pin="VIN"/>
-<junction x="111.76" y="99.06"/>
+<label x="53.34" y="111.76" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
 <pinref part="DIS1" gate="G$1" pin="VCC"/>
 <junction x="129.54" y="99.06"/>
+<label x="129.54" y="99.06" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
 <pinref part="DIS1" gate="G$1" pin="NC@1"/>
 <junction x="129.54" y="66.04"/>
+<label x="129.54" y="66.04" size="1.778" layer="95" rot="R180"/>
+</segment>
+<segment>
+<pinref part="ARDUINO_NANO1" gate="G$1" pin="5V"/>
+<junction x="111.76" y="91.44"/>
+<label x="119.38" y="91.44" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="AC1_3" class="0">
 <segment>
 <pinref part="R7" gate="G$1" pin="2"/>
 <junction x="-5.08" y="71.12"/>
+<label x="-5.08" y="63.5" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="AC1_4" class="0">
 <segment>
 <pinref part="R8" gate="G$1" pin="1"/>
 <junction x="17.78" y="71.12"/>
+<label x="17.78" y="63.5" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="IN2" class="0">
@@ -6481,38 +6513,32 @@ Source: tuxgr_12x2_r2.pdf</description>
 <segment>
 <pinref part="R10" gate="G$1" pin="2"/>
 <junction x="0" y="78.74"/>
+<label x="2.54" y="78.74" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
 <pinref part="R11" gate="1" pin="S"/>
 <junction x="-2.54" y="78.74"/>
 </segment>
 </net>
-<net name="GND1" class="0">
-<segment>
-<pinref part="R9" gate="G$1" pin="2"/>
-<junction x="15.24" y="88.9"/>
-</segment>
-<segment>
-<pinref part="R11" gate="1" pin="A"/>
-<junction x="-7.62" y="73.66"/>
-</segment>
-</net>
 <net name="+5V1" class="0">
 <segment>
 <pinref part="R11" gate="1" pin="E"/>
 <junction x="-7.62" y="83.82"/>
+<label x="-7.62" y="86.36" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="AC1_5" class="0">
 <segment>
 <pinref part="R12" gate="G$1" pin="2"/>
 <junction x="-5.08" y="40.64"/>
+<label x="-5.08" y="33.02" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="AC1_6" class="0">
 <segment>
 <pinref part="R13" gate="G$1" pin="1"/>
 <junction x="17.78" y="40.64"/>
+<label x="17.78" y="33.02" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="IN3" class="0">
@@ -6534,6 +6560,7 @@ Source: tuxgr_12x2_r2.pdf</description>
 <segment>
 <pinref part="R15" gate="G$1" pin="2"/>
 <junction x="0" y="48.26"/>
+<label x="0" y="50.8" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
 <pinref part="R16" gate="1" pin="S"/>
@@ -6568,6 +6595,7 @@ Source: tuxgr_12x2_r2.pdf</description>
 <pinref part="IC1" gate="A" pin="OUT"/>
 <wire x1="43.18" y1="96.52" x2="43.18" y2="104.14" width="0.1524" layer="91"/>
 <junction x="43.18" y="104.14"/>
+<label x="48.26" y="104.14" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="AN1" class="0">
@@ -6582,6 +6610,7 @@ Source: tuxgr_12x2_r2.pdf</description>
 <pinref part="IC1" gate="B" pin="OUT"/>
 <wire x1="45.72" y1="76.2" x2="43.18" y2="76.2" width="0.1524" layer="91"/>
 <junction x="45.72" y="76.2"/>
+<label x="50.8" y="76.2" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="AN2" class="0">
@@ -6596,12 +6625,7 @@ Source: tuxgr_12x2_r2.pdf</description>
 <pinref part="IC1" gate="C" pin="OUT"/>
 <wire x1="45.72" y1="45.72" x2="43.18" y2="45.72" width="0.1524" layer="91"/>
 <junction x="45.72" y="45.72"/>
-</segment>
-</net>
-<net name="N$13" class="0">
-<segment>
-<pinref part="ARDUINO_NANO1" gate="G$1" pin="5V"/>
-<junction x="111.76" y="91.44"/>
+<label x="50.8" y="45.72" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="D4" class="0">
@@ -6613,6 +6637,7 @@ Source: tuxgr_12x2_r2.pdf</description>
 <segment>
 <pinref part="DIS1" gate="G$1" pin="D4"/>
 <junction x="129.54" y="76.2"/>
+<label x="129.54" y="76.2" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="D7" class="0">
@@ -6624,6 +6649,7 @@ Source: tuxgr_12x2_r2.pdf</description>
 <segment>
 <pinref part="DIS1" gate="G$1" pin="D7"/>
 <junction x="129.54" y="68.58"/>
+<label x="129.54" y="68.58" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="D6" class="0">
@@ -6635,6 +6661,7 @@ Source: tuxgr_12x2_r2.pdf</description>
 <segment>
 <pinref part="DIS1" gate="G$1" pin="D6"/>
 <junction x="129.54" y="71.12"/>
+<label x="129.54" y="71.12" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="D5" class="0">
@@ -6646,6 +6673,7 @@ Source: tuxgr_12x2_r2.pdf</description>
 <segment>
 <pinref part="DIS1" gate="G$1" pin="D5"/>
 <junction x="129.54" y="73.66"/>
+<label x="129.54" y="73.66" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="ENA" class="0">
@@ -6657,6 +6685,7 @@ Source: tuxgr_12x2_r2.pdf</description>
 <segment>
 <pinref part="DIS1" gate="G$1" pin="E"/>
 <junction x="129.54" y="88.9"/>
+<label x="129.54" y="88.9" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="RS" class="0">
@@ -6668,12 +6697,14 @@ Source: tuxgr_12x2_r2.pdf</description>
 <segment>
 <pinref part="DIS1" gate="G$1" pin="RS"/>
 <junction x="129.54" y="93.98"/>
+<label x="129.54" y="93.98" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="V0" class="0">
 <segment>
 <pinref part="DIS1" gate="G$1" pin="CONTR"/>
 <junction x="129.54" y="96.52"/>
+<label x="129.54" y="96.52" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="N$3" class="0">
